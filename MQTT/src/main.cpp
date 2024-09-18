@@ -11,10 +11,10 @@ DeviceName  esp32
 Region  cn-shanghai
 MQTT连接参数
 {
-    "clientId": "k0v2sE6vkvg.esp32|securemode=2,signmethod=hmacsha256,timestamp=1709462770369|",
-    "username": "esp32&k0v2sE6vkvg",
-    "mqttHost": "iot-06z00fd1p0l73zk.mqtt.iothub.aliyuncs.com",
-    "passwd": "78cd0a39f1b7f70e422339de1d68f5759179f71b6dafd826c24386cb17547696",
+    "clientId": "",
+    "username": "",
+    "mqttHost": "",
+    "passwd": "",
     "port": 1883
 }
 */
@@ -22,10 +22,10 @@ MQTT连接参数
 //MQTT连接参数
 #define   MQTT_host         "e8580caa81.st1.iotda-device.cn-north-4.myhuaweicloud.com"     
 #define   MQTT_port         1883
-#define   MQTT_client_id    "667c326d7dbfd46fabc23238_wxnlP_0_0_2024063013"
-#define   MQTT_username     "667c326d7dbfd46fabc23238_wxnlP"
-#define   MQTT_password     "e5ec55c5a3e1df8a4d5358c2ff8f4e77e2dbffbfc77ff5890b5e937b1fd85606"
-#define   DeviceId          "667c326d7dbfd46fabc23238_wxnlP"
+#define   MQTT_client_id    ""
+#define   MQTT_username     ""
+#define   MQTT_password     ""
+#define   DeviceId          ""
 //阿里云平台的话题定义
 #define   MQTT_PublishTopic     "$oc/devices/667c326d7dbfd46fabc23238_wxnlP/sys/properties/report"
 #define   MQTT_GetTopic         "$oc/devices/667c326d7dbfd46fabc23238_wxnlP/sys/shadow/get/request_id={request_id}"
